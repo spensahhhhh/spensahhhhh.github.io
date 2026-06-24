@@ -17,15 +17,21 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-    right: 
-      - icon: github
-        href: https://github.com/nceas-learning-hub/2026_delta_week3
+    right:
+    - text: "About"
+      href: about.qmd
+    - icon: github
+      href: https://github.com/nceas-learning-hub/2026_delta_week3
   page-footer: 
     center: "Copyright &copy; 2026, Spencer Fern"
     background: secondary
 
 format:
   html:
+    theme:
+        light: theme_light.scss
+        dark: theme_dark.scss
+    mainfont: Open Sans
     toc: true
     link-external-newwindow: true
     link-external-icon: false
