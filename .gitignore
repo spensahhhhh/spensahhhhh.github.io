@@ -54,3 +54,5 @@ docs/
 
 # R Project
 *.Rproj
+
+**/*.quarto_ipynb
